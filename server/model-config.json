@@ -14,7 +14,11 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": true,
+    "options": {
+         "strictObjectIDCoercion": true
+    }
   },
   "AccessToken": {
     "dataSource": "db",
@@ -43,7 +47,11 @@
     "public": true
   },
   "teacher": {
-    "dataSource": null,
+    "dataSource": "db",
+    "public": true
+  },
+  "person": {
+    "dataSource": "db",
     "public": true
   }
 }

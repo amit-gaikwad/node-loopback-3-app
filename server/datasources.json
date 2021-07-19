@@ -1,6 +1,13 @@
 {
   "db": {
-    "name": "db",
-    "connector": "memory"
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "sampleDB",
+    "password": "",
+    "name": "mongoDS",
+    "user": "",
+    "useNewUrlParser": false,
+    "connector": "mongodb"
   }
 }
