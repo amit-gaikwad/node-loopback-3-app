@@ -5,7 +5,7 @@
     "url": "",
     "database": "sampleDB",
     "password": "",
-    "name": "mongoDS",
+    "name": "db",
     "user": "",
     "useNewUrlParser": false,
     "connector": "mongodb"
